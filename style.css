@@ -1,8 +1,16 @@
 
-    .attribution { 
-        font-size: 11px; text-align: center; 
-    }
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+
+
+.wrapper img {
+    width: 150px;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
     
-    .attribution a { 
-        color: hsl(228, 45%, 44%); 
-    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
