@@ -3,12 +3,35 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
-
-.wrapper img {
-    width: 150px;
+.wrapper {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
 }
+.wrapper img {
+    margin-left: 25px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+p span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper p {
+    text-align: center;
+    font-size: 15px;
+    margin: auto 20px auto 20px;
+    font-family: o;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
+    margin-top: 100px;
 }
     
 .attribution a { 
