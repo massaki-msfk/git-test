@@ -6,27 +6,32 @@ body {
 .wrapper {
     border: 2px solid black;
     border-radius: 15px;
-    width: 350px;
-    height: 500px;
-    margin: auto;
+    width: 320px;
+    height: 499px;
+    padding: 0;
     background-color: white;
-}
-.wrapper img {
-    margin-left: 25px;
-    width: 280px;
-    border-radius: 10px;
+    font-family: 'Outfit', sans-serif, monospace;
 }
 
-p span {
+.wrapper img {
+    width: 288px;
+    border-radius: 10px;
+    margin: 16px 16px 24px 16px;
+}
+
+.wrapper h2 {
     font-size: 20px;
-    font-weight: bold;
+    margin-top: 0;
+    padding: 0 16px 16px 0;
+
 }
 
 .wrapper p {
     text-align: center;
     font-size: 15px;
-    margin: auto 20px auto 20px;
-    font-family: o;
+    width: 288px;
+    margin: 16px;
+    padding: 0 16px 16px 0;
 }
 
 .attribution { 
