@@ -4,13 +4,14 @@ body {
 }
 
 .wrapper {
-    border: 2px solid black;
+    box-shadow: 0 0 15px hsl(216, 15%, 48%);
     border-radius: 15px;
     width: 320px;
     height: 499px;
     padding: 0;
+    margin: auto;
     background-color: white;
-    font-family: 'Outfit', sans-serif, monospace;
+    font-family: 'Outfit', serif;
 }
 
 .wrapper img {
@@ -20,10 +21,11 @@ body {
 }
 
 .wrapper h2 {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 0;
+    margin-left: 16px;
     padding: 0 16px 16px 0;
-
+    font-weight: 700;
 }
 
 .wrapper p {
@@ -32,6 +34,7 @@ body {
     width: 288px;
     margin: 16px;
     padding: 0 16px 16px 0;
+    font-weight: 400;
 }
 
 .attribution { 
