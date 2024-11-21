@@ -12,6 +12,7 @@ body {
     margin: auto;
     background-color: white;
     font-family: 'Outfit', serif;
+    padding-bottom: 40px;
 }
 
 .wrapper img {
@@ -21,10 +22,9 @@ body {
 }
 
 .wrapper h2 {
-    font-size: 22px;
-    margin-top: 0;
-    margin-left: 16px;
-    padding: 0 16px 16px 0;
+    font-size: 20px;
+    margin: 0 16px 0 16px;
+    padding: 0 16px 16px 16px;
     font-weight: 700;
 }
 
@@ -32,8 +32,8 @@ body {
     text-align: center;
     font-size: 15px;
     width: 288px;
-    margin: 16px;
-    padding: 0 16px 16px 0;
+    margin: 0;
+    padding: 0 16px 0 16px;
     font-weight: 400;
 }
 
